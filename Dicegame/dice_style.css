@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+	background: linear-gradient(-45deg, #ffc2af, #ffc6dc, #c3efff, #bbffef);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 20px 20px;
+
+} 
+.dices_div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.dice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+}
+.player12{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    font-size:70px;
+    font-family: 'Lexend';
+}
+
+.text-content{
+    font-size: small;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(62, 62, 62);
+}
+ul li{
+    list-style-type: none;
+    font-size: small;
+    font-weight: bold;
+  }
+
+#sum_result{
+    font-size: x-large;
+    font-weight: bold;
+   
+}
+
+#result_script{
+    padding-bottom: 20px;
+}

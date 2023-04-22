@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar:hover {
+    transform: scale(1.001);
+    box-shadow: 4px 4px 8px 2px rgb(188, 188, 188);
+}
+
+ul > li > a:hover{
+    text-decoration: underline;
+}
+
+ul > li{
+    padding-left: 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text1{
+    position: absolute;
+    bottom: 650px;
+    left: 170px;
+    color: white;
+}
+.text2 {
+    position: absolute;
+    bottom: 610px;
+    left: 170px;
+    color: white;
+}
+.text3 {
+    position: absolute;
+    bottom: 560px;
+    left: 170px;
+    color: rgb(158, 158, 158);
+}
+
+.riddle{
+    position: absolute;
+    bottom: 475px;
+    left: 170px;
+}
+
+.riddle-btn{
+    border: none;
+    background-color:transparent ;
+    color: rgb(255, 0, 0);
+    font-size: small;
+    margin-left: 3px;
+}
+
+.riddle-ans{
+    position: absolute;
+    bottom: 460px;
+    left: 170px;
+    width: 10%;
+    height: 25px;
+}
+
+.riddle-ans-msg{
+    position: absolute;
+    bottom: 445px;
+    left: 300px;
+}
+
+.text4 {
+    position: absolute;
+    bottom: 230px;
+    left: 39.2em;
+    color: rgb(158, 158, 158);
+}
+
+.text4:hover{
+    color: whitesmoke;
+    transform: scale(1);
+}
+
+.begin{
+    position: absolute;
+    bottom: 340px;
+    left: 170px;
+}
+
+.bi{
+    color: brown;
+}
+
+.funimg{
+    margin-right: 25px;
+    padding-right: 10px;
+}
+
+.Drums{
+    margin-left: 8rem
+}
+
+.funzone{
+    margin-top: 2.5em;
+    margin-left:3em;
+}
+
+
