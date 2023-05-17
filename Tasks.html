@@ -218,9 +218,9 @@
 
 <body>
     
-    <p class="text-center info"><b>Buddy :</b> <span style="color:bisque">Yes, I think we reached the Bank. Let's go inside something was waiting for us to get solved.</span></p>
-    <p class="text-center info1">Mr sher:<span style="color:bisque">I like your confidence. But it doesn't work here.</span></p>
-    <p class="text-center info1">Yes there is locker we have to open.<span style="color:bisque"> Buddy :But to open we need sove this.</span></p>
+    <p class="text-center info"><b>Buddy :</b> <span style="color:bisque">Yes, I think this is the Bank. Let's get in, something awaiting in to get solved.</span></p>
+    <p class="text-center info1">Mr sher:<span style="color:bisque">nice confidence. But confidence doesn't work everytime.</span></p>
+    <p class="text-center info1">The locker is here we have to open.<span style="color:bisque"> Buddy :To open we need to sove this.</span></p>
 
 <!-- https://quozio.com/quote/4f90ad3a/1025/riddle-a-man-is-pushing-his-car-he-arrives-at-a-hotel-and -->
 
@@ -327,12 +327,14 @@
             }
 
              let total = "630";
+              var html = html + ' br'
+                               + '<b>Clue :</b>'
             function checkTotal() {
                 let codeTotal = document.getElementById('Costtotal').value
                 if (total === codeTotal) {
                     document.getElementById('missingCost').innerHTML = 273
                     document.getElementById('Lockercode').innerHTML = total
-                    document.getElementById('Bankaddress').innerHTML = "Bank of Nill Hill in South station.Your Locker Has some Stuff.Your Brilliant.Clue : Post Boxes"
+                    document.getElementById('Bankaddress').innerHTML = "Bank of Nill Hill in South station.Your Locker Has some Stuff.Your Brilliant." +html+ " Post Boxes"
                     document.querySelector('table').style.border = '1px solid green'
                     document.getElementById('save').innerHTML = "But you can't save her . I'm going to kidnapp other bird today Mr sher & Friend 😈😈"
                     document.getElementById('next1').disabled = false;
