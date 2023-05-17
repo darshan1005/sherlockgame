@@ -33,29 +33,23 @@
             console.log(elapsedTime)
             console.log("Timer started")
 
-            if (elapsedTime <= 400){
-                document.getElementById('Score').innerHTML = 100
-                console.log("Time <6min")
+             if (elapsedTime <= 720){
+                document.getElementById('Score').innerHTML = Math.floor(Math.random() * (100 - 91 + 1) + 91)
             }
-            else if (elapsedTime >= 400 && elapsedTime < 600){
-                document.getElementById('Score').innerHTML = Math.floor(Math.random() * (99 - 79 + 1) + 79)
-                console.log("Time <8min")
+            else if (elapsedTime >= 960 && elapsedTime < 1200){
+                document.getElementById('Score').innerHTML = Math.floor(Math.random() * (90 - 79 + 1) + 79)
             }
-            else if (elapsedTime >= 600 && elapsedTime < 800){
+            else if (elapsedTime >= 1200 && elapsedTime < 1440){
                 document.getElementById('Score').innerHTML = Math.floor(Math.random() * (69 - 49 + 1) + 49)
-                console.log("Time <12min")
             }
-            else if (elapsedTime >= 800 && elapsedTime < 1000){
+            else if (elapsedTime >= 1440 && elapsedTime < 1680){
                 document.getElementById('Score').innerHTML = Math.floor(Math.random() * (59 - 39 + 1) + 39)
-                console.log("Time <16min")
             }
-            else if (elapsedTime >= 1000 && elapsedTime < 1200){
+            else if (elapsedTime >= 1680 && elapsedTime < 1800){
                 document.getElementById('Score').innerHTML = Math.floor(Math.random() * (49 - 29 + 1) + 29)
-                console.log("Time <20min")
             }
             else{
                 document.getElementById('Score').innerHTML = Math.floor(Math.random() * (19 - 0 + 1) + 19)
-                console.log("Time 24ormore-min")
             }
         }
 
